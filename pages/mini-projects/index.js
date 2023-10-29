@@ -22,7 +22,7 @@ export default function Home() {
           <div className="my-10 flex w-full flex-col justify-between space-y-6 text-2xl uppercase text-white md:flex-row md:space-x-8 md:space-y-0">
             {/* . Item 1 . */}
             <Link
-              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500"
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
               href="mini-projects/login-modal"
             >
               {/* . Desktop Image . */}
@@ -33,14 +33,14 @@ export default function Home() {
               />
 
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Login Modal</h5>
             </Link>
 
             {/* . Item 2 . */}
             <Link
-              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500"
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
               href="mini-projects/image-gallery"
             >
               {/* . Desktop Image . */}
@@ -51,7 +51,7 @@ export default function Home() {
               />
 
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Image Gallery</h5>
             </Link>
@@ -59,9 +59,9 @@ export default function Home() {
 
           {/* . Items Container 2 . */}
           <div className="my-10 flex w-full flex-col justify-between space-y-6  text-2xl uppercase text-white md:flex-row md:space-x-8 md:space-y-0">
-            {/* . Item 1 . */}
+            {/* . Item 3 . */}
             <Link
-              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500"
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
               href="/mini-projects/email-subscribe"
             >
               {/* . Desktop Image . */}
@@ -72,14 +72,14 @@ export default function Home() {
               />
 
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Email Subscribe</h5>
             </Link>
 
-            {/* . Item 1 . */}
+            {/* . Item 4 . */}
             <Link
-              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500"
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
               href="mini-projects/pricing-cards"
             >
               {/* . Desktop Image . */}
@@ -90,7 +90,7 @@ export default function Home() {
               />
 
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Pricing Cards</h5>
             </Link>
@@ -100,7 +100,7 @@ export default function Home() {
 
           <div className="my-10 flex w-full flex-col justify-between space-y-6  text-2xl uppercase text-white md:flex-row md:space-x-8 md:space-y-0">
             <Link
-              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500"
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
               href="/mini-projects/product-modal"
             >
               {/* . Desktop Image . */}
@@ -111,14 +111,14 @@ export default function Home() {
               />
 
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Product Modal</h5>
             </Link>
 
             {/* . Item 1 . */}
             <Link
-              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500"
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
               href="/mini-projects/testimonial-grid"
             >
               {/* . Desktop Image . */}
@@ -129,7 +129,7 @@ export default function Home() {
               />
 
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Testemonial Grid</h5>
             </Link>

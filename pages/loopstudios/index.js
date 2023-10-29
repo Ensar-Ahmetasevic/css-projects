@@ -127,166 +127,166 @@ export default function Loopstudios() {
           </div>
 
           {/* . Items Container . */}
-          <div class="item-container">
+          <div className="item-container">
             {/* . Item 1 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-deep-earth.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-deep-earth.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Deep Earth</h5>
             </div>
 
             {/* . Item 2 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-night-arcade.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-night-arcade.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Night Arcade</h5>
             </div>
 
             {/* . Item 3 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-soccer-team.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-soccer-team.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Soccer Team VR</h5>
             </div>
 
             {/* . Item 4 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-grid.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-grid.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">The Grid</h5>
             </div>
           </div>
 
           {/* . Item Container 2 . */}
-          <div class="item-container mt-10">
+          <div className="item-container mt-10">
             {/* . Item 1 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-from-above.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-from-above.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">From Up Above VR</h5>
             </div>
 
             {/* . Item 2 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-pocket-borealis.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-pocket-borealis.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Pocket Borealis</h5>
             </div>
 
             {/* . Item 3 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-curiosity.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-curiosity.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">The Curiosity</h5>
             </div>
 
             {/* . Item 4 . */}
-            <div class="item group">
+            <div className="item group">
               {/* . Desktop Image . */}
               <img
                 src="/loopstudios-images/desktop/image-fisheye.jpg"
                 alt=""
-                class="hidden w-full duration-200 group-hover:scale-110 md:block"
+                className="hidden w-full duration-200 group-hover:scale-110 md:block"
               />
               {/* . Mobile Image . */}
               <img
                 src="/loopstudios-images/mobile/image-fisheye.jpg"
                 alt=""
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
               {/* . Item Gradient . */}
-              <div class="item-gradient"></div>
+              <div className="item-gradient"></div>
               {/* . Item Text . */}
               <h5 className="item-text">Make It Fisheye</h5>
             </div>

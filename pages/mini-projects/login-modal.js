@@ -28,11 +28,11 @@ export default function Home() {
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-7"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="#ffffff"
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                 <line x1="5" y1="12" x2="19" y2="12" />
@@ -85,13 +85,13 @@ export default function Home() {
         <div className="group absolute -top-5 right-4 flex h-10 w-10 items-center justify-center rounded-full bg-gray-200 transition duration-150 hover:-translate-y-0.5 hover:cursor-pointer md:top-4 md:bg-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-6 w-6 text-black group-hover:text-gray-600"
+            className="h-6 w-6 text-black group-hover:text-gray-600"
             viewBox="0 0 24 24"
-            stroke-width="1.5"
+            strokeWidth="1.5"
             stroke="currentColor"
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <line x1="18" y1="6" x2="6" y2="18" />

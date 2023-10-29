@@ -128,7 +128,7 @@ export default function Clipboard() {
 
       {/* Supercharge section */}
 
-      <section id="supercharge" nam>
+      <section id="supercharge">
         <div className="section-container my-20">
           <h3 className="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
             Supercharge your workflow
@@ -210,26 +210,26 @@ export default function Clipboard() {
 
       {/* Bottom CTA Section */}
       <section id="bottom">
-        <div class="section-container my-20">
+        <div className="section-container my-20">
           <h3 className="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
             Clipboard for iOS and MacOS
           </h3>
-          <p class="section-content mb-10 text-xl">
+          <p className="section-content mb-10 text-xl">
             Available for free on the App Store. Download for Mac or iOS, sync
             with iCloud and you're ready to start adding to your clipboard.
           </p>
 
           {/* Button Container */}
-          <div class="button-container">
+          <div className="button-container">
             <Link
               href="#"
-              class="rounded-full bg-strongCyan p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+              className="rounded-full bg-strongCyan p-4 px-8 shadow-lg duration-200 hover:opacity-80"
             >
               Download for iOS
             </Link>
             <Link
               href="#"
-              class="rounded-full bg-lightBlue p-4 px-8 shadow-lg duration-200 hover:opacity-80"
+              className="rounded-full bg-lightBlue p-4 px-8 shadow-lg duration-200 hover:opacity-80"
             >
               Download for Mac
             </Link>

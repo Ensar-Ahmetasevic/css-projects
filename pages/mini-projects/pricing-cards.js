@@ -3,19 +3,19 @@ import Link from "next/link";
 export default function Home() {
   return (
     // Global Container
-    <div className="flex items-center justify-center min-h-screen bg-slate-800">
-      <div className="flex flex-col my-6 space-y-6 md:space-y-0 md:space-x-6 md:flex-row md:my-0">
+    <div className="flex min-h-screen items-center justify-center bg-slate-800">
+      <div className="my-6 flex flex-col space-y-6 md:my-0 md:flex-row md:space-x-6 md:space-y-0">
         {/* Col 1 */}
-        <div className="bg-slate-700 rounded-xl text-white">
+        <div className="rounded-xl bg-slate-700 text-white">
           {/* Upper container */}
-          <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
+          <div className="mx-3 mt-3 rounded-t-xl bg-slate-800 p-8">
             <h1 className="text-center uppercase">basic</h1>
-            <h2 className="mt-10 font-serif text-5xl text-center">100GB</h2>
+            <h2 className="mt-10 text-center font-serif text-5xl">100GB</h2>
             <h3 className="mt-2 text-center">$1.99/Month</h3>
             <div className="flex justify-center">
               <Link
                 href="/"
-                className="inline-block px-10 py-3 my-8 text-center border border-violet-600 rounded-lg hover:bg-violet-800 hover:border-violet-800 duration-200"
+                className="my-8 inline-block rounded-lg border border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
               >
                 Purchase
               </Link>
@@ -24,74 +24,74 @@ export default function Home() {
           {/* Border */}
           <div className="border-t border-slate-700"></div>
           {/* Lower container  */}
-          <div className="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+          <div className="mx-3 mb-3 rounded-b-xl bg-slate-800 p-8">
             {/* List Container  */}
             <div className="flex flex-col space-y-2">
               {/* List Item 1 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">100GB of storage</span>
+                <span className="ml-1 text-sm">100GB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Option to add members</span>
+                <span className="ml-1 text-sm">Option to add members</span>
               </div>
               {/* List Item 3 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Extra member benefits</span>
+                <span className="ml-1 text-sm">Extra member benefits</span>
               </div>
             </div>
           </div>
         </div>
         {/* Col 2 */}
-        <div className="bg-violet-600 rounded-xl text-white">
+        <div className="rounded-xl bg-violet-600 text-white">
           {/* Upper container */}
-          <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
+          <div className="mx-3 mt-3 rounded-t-xl bg-slate-800 p-8">
             <h1 className="text-center uppercase">standard</h1>
-            <h2 className="mt-10 font-serif text-5xl text-center">200GB</h2>
+            <h2 className="mt-10 text-center font-serif text-5xl">200GB</h2>
             <h3 className="mt-2 text-center">$3.99/Month</h3>
             <div className="flex justify-center">
               <Link
                 href="/"
-                className="inline-block px-10 py-3 my-8 text-center bg-violet-600 border border-violet-600 rounded-lg hover:bg-violet-800 hover:border-violet-800 duration-200"
+                className="my-8 inline-block rounded-lg border border-violet-600 bg-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
               >
                 Purchase
               </Link>
@@ -100,74 +100,74 @@ export default function Home() {
           {/* Border */}
           <div className="border-t border-slate-700"></div>
           {/* Lower container  */}
-          <div className="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+          <div className="mx-3 mb-3 rounded-b-xl bg-slate-800 p-8">
             {/* List Container  */}
             <div className="flex flex-col space-y-2">
               {/* List Item 1 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">200GB of storage</span>
+                <span className="ml-1 text-sm">200GB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Option to add members</span>
+                <span className="ml-1 text-sm">Option to add members</span>
               </div>
               {/* List Item 3 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Extra member benefits</span>
+                <span className="ml-1 text-sm">Extra member benefits</span>
               </div>
             </div>
           </div>
         </div>
         {/* Col 3 */}
-        <div className="bg-slate-700 rounded-xl text-white">
+        <div className="rounded-xl bg-slate-700 text-white">
           {/* Upper container */}
-          <div className="p-8 mx-3 mt-3 rounded-t-xl bg-slate-800">
+          <div className="mx-3 mt-3 rounded-t-xl bg-slate-800 p-8">
             <h1 className="text-center uppercase">PREMIUM</h1>
-            <h2 className="mt-10 font-serif text-5xl text-center">2TB</h2>
+            <h2 className="mt-10 text-center font-serif text-5xl">2TB</h2>
             <h3 className="mt-2 text-center">$8.99/Month</h3>
             <div className="flex justify-center">
               <Link
                 href="/"
-                className="inline-block px-10 py-3 my-8 text-center border border-violet-600 rounded-lg hover:bg-violet-800 hover:border-violet-800 duration-200"
+                className="my-8 inline-block rounded-lg border border-violet-600 px-10 py-3 text-center duration-200 hover:border-violet-800 hover:bg-violet-800"
               >
                 Purchase
               </Link>
@@ -176,59 +176,59 @@ export default function Home() {
           {/* Border */}
           <div className="border-t border-slate-700"></div>
           {/* Lower container  */}
-          <div className="p-8 mx-3 mb-3 rounded-b-xl bg-slate-800">
+          <div className="mx-3 mb-3 rounded-b-xl bg-slate-800 p-8">
             {/* List Container  */}
             <div className="flex flex-col space-y-2">
               {/* List Item 1 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">2TB of storage</span>
+                <span className="ml-1 text-sm">2TB of storage</span>
               </div>
               {/* List Item 2 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Option to add members</span>
+                <span className="ml-1 text-sm">Option to add members</span>
               </div>
               {/* List Item 3 */}
               <div className="flex justify-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="h-5 w-5"
                   viewBox="0 0 24 24"
-                  stroke-width="2"
+                  strokeWidth="2"
                   stroke="currentColor"
                   fill="none"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 >
                   <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                   <path d="M5 12l5 5l10 -10" />
                 </svg>
-                <span className="text-sm ml-1">Extra member benefits</span>
+                <span className="ml-1 text-sm">Extra member benefits</span>
               </div>
             </div>
           </div>

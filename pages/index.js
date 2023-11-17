@@ -33,26 +33,24 @@ export default function Home() {
 
               {/* . Item Gradient . */}
               <div className="item-gradient"></div>
-              {/* . Item Text . */}
               <h5 className="item-text">Shortly</h5>
             </Link>
 
             {/* . Item 2 . */}
             <Link
               className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
-              href="/loopstudios"
+              href="https://book-mark-six.vercel.app/"
             >
               {/* . Desktop Image . */}
               <img
-                src="/home-page/loopstudios.png"
+                src="/home-page/bookmark.png"
                 alt=""
                 className="h-200 w-200 duration-300 group-hover:scale-110 md:block"
               />
 
               {/* . Item Gradient . */}
               <div className="item-gradient"></div>
-              {/* . Item Text . */}
-              <h5 className="item-text">Deep Earth</h5>
+              <h5 className="item-text">Bookmark</h5>
             </Link>
           </div>
 
@@ -97,6 +95,24 @@ export default function Home() {
 
           {/* . Items Container . */}
           <div className="my-10 flex w-full flex-col justify-between space-y-6  text-2xl uppercase text-white md:flex-row md:space-x-8 md:space-y-0">
+            {/* . Item 2 . */}
+            <Link
+              className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
+              href="/loopstudios"
+            >
+              {/* . Desktop Image . */}
+              <img
+                src="/home-page/loopstudios.png"
+                alt=""
+                className="h-200 w-200 duration-300 group-hover:scale-110 md:block"
+              />
+
+              {/* . Item Gradient . */}
+              <div className="item-gradient"></div>
+              {/* . Item Text . */}
+              <h5 className="item-text">Deep Earth</h5>
+            </Link>
+
             {/* . Item 5 . */}
             <Link
               className="group relative overflow-hidden rounded-lg border-x-8 border-gray-500 md:w-1/2"
